@@ -1,0 +1,80 @@
+.idcard {
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.idcard div {
+    margin: 10px;
+}
+
+.greeting {
+    border: black solid 2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.random {
+    border: black solid 2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box-color {
+    margin: 10px;
+    padding: 5px;
+    border: black solid 2px;
+    text-align: center;
+}
+
+.cc-container {
+    position: relative;
+    width: 33%;
+    border-radius: 5px;
+}
+  
+.cc-container img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20%;
+}
+
+.cc-number {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.cc-date-bank {
+    margin-left: 10px;
+}
+
+.cc-owner {
+    margin-left: 10px;
+}
+
+.Rating {
+    font-size: 40px;
+}
+
+.driver-card-container {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-img img{
+    width: 80%;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin: 50px;
+}
