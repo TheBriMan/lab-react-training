@@ -8,6 +8,11 @@ import BoxColor from './components/BoxColor.js';
 import CreditCard from './components/CreditCard.js';
 import Rating from './components/Rating.js';
 import DriverCard from './components/DriverCard.js';
+import LikeButton from './components/LikeButton.js';
+import ClickablePicture from './components/ClickablePicture.js';
+import Dice from './components/Dice.js';
+import Facebook from './components/Facebook.js';
+
 
 function App() {
   return (
@@ -74,6 +79,17 @@ function App() {
         model: "Toyota Corolla Altis",
         licensePlate: "CO42DE"
       }} />
+      <hr/>
+      <LikeButton />
+      <hr/>
+      <ClickablePicture
+        img='/img/persons/maxence.png'
+        imgClicked='/img/persons/maxence-glasses.png'
+      />
+      <hr/>
+      <Dice />
+      <hr/>
+      <Facebook />
     </div>
   );
 }
